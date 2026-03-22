@@ -5,7 +5,10 @@ from rag.retriever import retrieve_chunks
 
 load_dotenv()
 
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+import streamlit as st
+
+api_key = os.getenv("GROQ_API_KEY") or st.secrets.get("GROQ_API_KEY")
+client = Groq(api_key=api_key)
 
 SYSTEM_PROMPT = """You are an AI assistant that answers questions about a person 
 based strictly on their profile data provided to you as context.

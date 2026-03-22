@@ -5,7 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-APIFY_TOKEN = os.getenv("APIFY_API_TOKEN")
+import streamlit as st
+APIFY_TOKEN = os.getenv("APIFY_API_TOKEN") or st.secrets.get("APIFY_API_TOKEN")
 ACTOR = "apidojo~tweet-scraper"
 
 
