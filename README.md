@@ -5,7 +5,7 @@ An AI-powered chatbot that lets you explore anyone's professional digital footpr
 ---
 
 ## 🎥 Demo Video
-[Link to demo video] ← add this after recording
+(https://www.loom.com/share/e01d232eac0142d08a6fc00d007ddbd4)
 
 ## 🌐 Live Deployment
 (https://digital-persona-f5el2cmczdp8k53cszh38k.streamlit.app/)
