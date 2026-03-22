@@ -8,7 +8,7 @@ An AI-powered chatbot that lets you explore anyone's professional digital footpr
 [Link to demo video] ← add this after recording
 
 ## 🌐 Live Deployment
-[Link to Streamlit Cloud] ← add this after deploying
+(https://digital-persona-f5el2cmczdp8k53cszh38k.streamlit.app/)
 
 ---
 
